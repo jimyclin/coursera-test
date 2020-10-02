@@ -1,0 +1,59 @@
+body {
+	font-family: "Comic Sans MS";
+}
+
+h1.h1 {
+	text-align: center;
+}
+
+.row {
+	width: 100%;
+}
+
+.col-md-6,
+.col-md-12,
+.col-lg-4{
+	border: 2px solid black;
+	margin: 10px;
+	background-color: #999999;
+	float: left;
+}
+
+#ck,
+#bf,
+#sh {
+	border-bottom: 2px solid black;
+	border-left: 2px solid black;
+	width: 100px;
+	text-align: center;
+	float: right;
+}
+
+#ck {
+	background-color: #D59898;
+}
+
+#bf {
+	background-color: #C14543;
+	color: #fff;
+}
+
+#sh {
+	background-color: #E5D198;
+}
+
+.menu-content {
+	clear: both;
+	margin: 20px;
+}
+
+/*md device*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.col-md-6 {
+		width: 50%;
+	}
+	.col-md-12 {
+		width: 100%;
+	}
+}
